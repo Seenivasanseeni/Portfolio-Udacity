@@ -1,0 +1,14 @@
+body{
+    margin: 5% 22%;
+    background-color: aqua;
+}
+
+.name{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.quote{
+    text-align: center;
+}
