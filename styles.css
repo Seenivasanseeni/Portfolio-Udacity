@@ -1,6 +1,9 @@
 body{
     margin: 5% 22%;
-    background-color: aqua;
+}
+
+.banner img{
+    box-shadow: 0px 0px 25px blue;
 }
 
 .name{
@@ -13,6 +16,14 @@ body{
     text-align: center;
 }
 
+.works .work{
+    margin-top: 50px;
+}
+
+.work{
+    text-align: center;
+    box-shadow: 0px 0px 25px blue;
+}
 .works .intro{
     text-align: center;
 }
@@ -44,6 +55,16 @@ body{
         width: 100%;
         text-align: center;
         display: block;
+    }
+    
+}
+
+@media screen and (min-width:300px) and (max-width: 1300px){
+    body{
+        margin:10%;
+    }
+    .banner img{
+        width: 100%;
     }
     
 }
